@@ -1,0 +1,168 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    
+    body, html {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+  }
+  
+   .landing-page {
+    background: linear-gradient(rgba(49, 49, 80, 0.8), rgba(88, 87, 141, 0.8)), 
+    url('/public/images/bag.jpg') no-repeat center center;
+    background-size: cover;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      color: white;
+      text-align: center;
+      align-items: center;
+      gap: 100px;
+  } 
+   
+    
+
+
+ .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(66, 197, 66);
+    color: white;
+    padding: 10px 20px;
+    width: 100%;
+    height: 65px;
+  }
+  
+  .nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+     margin:  10px;
+    gap: 10px;
+    
+    
+    
+  }
+  
+   .head{
+    max-width: 400px;
+    line-height: 40px;
+   }
+  .para{
+    text-align: center;
+    line-height: 25px;
+    font: 10px;
+    max-width: 600px;
+
+  }
+  
+  .product-listing
+   {
+    /* text-align: center; */
+    margin: 0;
+    background-color: rgb(207, 205, 199);
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    font-size: 20px;
+  }
+  
+  .cart-page{
+   
+    text-align: center;
+    margin: 0;
+    background-color: rgb(207, 205, 199);
+    width: 100%;
+    height: 100vh;
+    padding: 30px;
+
+  }
+
+  .products {
+   
+     text-align: center;
+    gap: 150px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+
+   
+  
+  .product-card {
+    border: 1px solidwhite;
+    padding: 15px;
+    width: 300px;
+    height: 330px;
+    z-index: 1;
+    background-color: white;
+    margin: 30px;
+  }
+  
+  button {
+  
+    background-color:rgb(66, 197, 66);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    
+  }
+  
+  button:disabled {
+    background-color: #a0a0a0;
+    cursor: not-allowed;
+  } 
+
+  .product-card img {
+    width: 100%;
+    height: 75%;
+    
+    border-radius: 4px;
+  }
+
+
+  .cart-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 15px;
+    width: 450px;
+    
+    z-index: 1;
+    background-color: white;
+    margin: 30px;
+    margin-left: 420px ;
+  }
+
+  .remove{
+    background-color: #e22323;
+    height: 2%;
+    width: 70px;
+    margin-top: 8px ;
+    border-radius: 8px;
+  }
+   
