@@ -10,7 +10,7 @@ const Navbar = ({ cartCount }) => {
       <div className='nav'>
       <div>
       <img
-          src="/images/5b8c59419c86627dac6721ace8813f2e-removebg-preview.png"
+          src="public/images/5b8c59419c86627dac6721ace8813f2e-removebg-preview.png"
           height={50}
           width={50}
           alt="Paradise Nursery Logo"
