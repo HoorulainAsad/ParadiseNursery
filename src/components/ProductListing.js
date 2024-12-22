@@ -4,9 +4,9 @@ import './styles.css';
 // Sample Product Data
 const products = [
   { id: 1, name: 'Snake Plant', price: 15, category: 'Air Purifying', image: './images/snake.jpeg' },
-  { id: 2, name: 'Spider Plant', price: 12, category: 'Air Purifying', image: images/spider.jpg' },
-  { id: 3, name: 'Peace Lily', price: 18, category: 'Aromatic', image: 'images/peace.jpeg' },
-  { id: 4, name: 'Lavender', price: 25, category: 'Aromatic', image: 'images/lavender-shk-1.jpg' },
+  { id: 2, name: 'Spider Plant', price: 12, category: 'Air Purifying', image: ../images/spider.jpg' },
+  { id: 3, name: 'Peace Lily', price: 18, category: 'Aromatic', image: 'public/images/peace.jpeg' },
+  { id: 4, name: 'Lavender', price: 25, category: 'Aromatic', image: 'images/lavender-shk-1.JPG' },
   { id: 5, name: 'Rosemary', price: 30, category: 'Scented', image: 'images/rosemary.jpg' },
   { id: 6, name: 'Jasmine', price: 28, category: 'Scented', image: 'images/lily.jpeg' },
 ];
